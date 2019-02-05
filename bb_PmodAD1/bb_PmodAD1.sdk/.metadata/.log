@@ -1,0 +1,36 @@
+!SESSION 2019-02-01 16:50:10.362 -----------------------------------------------
+eclipse.buildId=2018.3
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+This is a continuation of log file C:\Zynq_Book\bb_PmodAD1\bb_PmodAD1.sdk\.metadata\.bak_0.log
+Created Time: 2019-02-01 16:50:45.620
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-02-01 16:50:45.624
+!MESSAGE An internal error occurred during: "Initiating resource change handling..".
+!STACK 0
+org.eclipse.core.runtime.AssertionFailedException: null argument:Participant must not be null
+	at org.eclipse.core.runtime.Assert.isNotNull(Assert.java:85)
+	at org.eclipse.core.internal.resources.Workspace.addSaveParticipant(Workspace.java:338)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.startSaveParticipant(CProjectDescriptionManager.java:381)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.access$1(CProjectDescriptionManager.java:378)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager$3.run(CProjectDescriptionManager.java:353)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-02-01 16:50:45.657
+!MESSAGE The workspace will exit with unsaved changes in this session.
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-02-01 16:50:45.681
+!MESSAGE An internal error occurred during: "Setting up indexer".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.pdom.indexer.IndexerPreferences.get(IndexerPreferences.java:226)
+	at org.eclipse.cdt.internal.core.pdom.PDOMManager.getIndexerId(PDOMManager.java:453)
+	at org.eclipse.cdt.internal.core.pdom.PDOMManager.createIndexer(PDOMManager.java:573)
+	at org.eclipse.cdt.internal.core.pdom.PDOMSetupJob.run(PDOMSetupJob.java:58)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 2 2 2019-02-01 16:50:46.033
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.ui.CUIPlugin$3

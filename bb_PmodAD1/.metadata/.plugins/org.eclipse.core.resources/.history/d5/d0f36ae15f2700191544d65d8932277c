@@ -1,0 +1,151 @@
+/******************************************************************************/
+/*                                                                            */
+/* main.c -- PmodAD1 Example Project                                          */
+/*                                                                            */
+/******************************************************************************/
+/* Author: Arthur Brown                                                       */
+/* Copyright 2017, Digilent Inc.                                              */
+/******************************************************************************/
+/* Module Description:                                                        */
+/*                                                                            */
+/* This file contains code for running a demonstration of the PmodAD1 when    */
+/* used with the PmodAD1 IP core. This demo initializes the PmodAD1 IP core   */
+/* and then polls its sample register, printing the analog voltage last       */
+/* sampled by each of the AD1's two channels over UART.                       */
+/*                                                                            */
+/* Messages printed by this demo can be received by using a serial terminal   */
+/* configured with the appropriate Baud rate. 115200 for Zynq systems, and    */
+/* whatever the AXI UARTLITE IP is configured with for MicroBlaze systems,    */
+/* typically 9600 or 115200 Baud.                                             */
+/*                                                                            */
+/******************************************************************************/
+/* Revision History:                                                          */
+/*                                                                            */
+/*    08/15/2017(ArtVVB):   Created                                           */
+/*    02/10/2018(atangzwj): Validated for Vivado 2017.4                       */
+/*                                                                            */
+/******************************************************************************/
+
+#include <stdio.h>
+#include "PmodAD1.h"
+#include "sleep.h"
+#include "xgpio.h"
+#include "xil_io.h"
+#include <xil_types.h>
+#include "xparameters.h"
+
+
+
+#define SECOND 1000000
+#define LEDS 1  //channel
+#define SWITCHES 2  //channel
+#define WINDOWSIZE 10
+#define OVERLAP 5
+#define TOTALSAMPLES 500
+
+XGpio LEDSWSInst;
+PmodAD1 myDevice;
+AD1_RawData RawData;
+AD1_PhysicalData PhysicalData;
+
+const float ReferenceVoltage = 3.3/2;
+float window[10];
+float finalSamples[TOTALSAMPLES];
+float avg = 0;
+int num = 0;
+int sum = 0;
+
+void ADInitialize();
+void XGPIOInit();
+void ADRun();
+void WindowStackInit();
+void WindowpPush(float );
+void windowPop(float );
+void windowShift(float );
+void windowAverage();
+
+
+
+int main() {
+	ADInitialize();
+	//XGPIOInit();
+	while(1){
+		AD1_GetSample (&myDevice, &RawData); // capture raw samples
+				AD1_RawToPhysical(ReferenceVoltage, RawData, &PhysicalData); // convert raw samples into floats scaled to 0 - VDD
+
+				xil_printf("Input Data 1: %.02f;   ", PhysicalData[0]);
+				xil_printf("Input Data 2: %.02f\r\n", PhysicalData[1]);
+
+				// do this 10x per second
+				usleep(100000);
+	}
+
+   while(1){
+   ADRun();
+   }
+}
+
+void ADInitialize() {
+
+   AD1_begin(&myDevice, XPAR_PMODAD1_0_AXI_LITE_SAMPLE_BASEADDR);
+
+   // Wait for AD1 to finish powering on
+   usleep(1); // 1 us (minimum)
+}
+
+void XGPIOInit(){
+	//S_AXI_GPIO_0
+	XGpio_Initialize(&LEDSWSInst,XPAR_AXI_GPIO_0_DEVICE_ID);
+
+	XGpio_SetDataDirection(&LEDSWSInst,LEDS,0x00);
+	XGpio_SetDataDirection(&LEDSWSInst,SWITCHES,0xFF);
+
+}
+
+void ADRun() {
+	switch(XGpio_DiscreteRead(&LEDSWSInst,SWITCHES)){
+    case(0):
+    		xil_printf("ECE3622 Lab 2\n\n");
+			usleep(5*SECOND);
+			break;
+    case(2):
+    		WindowStackInit(); //fills first window
+    		//window array is now full
+    		//now take first average
+
+
+    		break;
+
+    case(4):
+    		break;
+
+    default:
+    	break;
+
+
+      }
+}
+
+void WindowStackInit(){
+	for(int t = 0;t<=WINDOWSIZE;t++)
+				{
+					AD1_GetSample(&myDevice, &RawData); // Capture raw samples
+					// Convert raw samples into floats scaled to 0 - VDD
+					AD1_RawToPhysical(ReferenceVoltage, RawData, &PhysicalData);
+					window[t]=PhysicalData[0];
+				}
+}
+
+void WindowAverage(){
+
+}
+
+void windowPush(float window){
+
+
+}
+
+
+
+
+
