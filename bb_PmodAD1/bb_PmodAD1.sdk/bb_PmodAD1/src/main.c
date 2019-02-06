@@ -80,7 +80,8 @@ void XGPIOInit() {
 
 void ADRun() {
     int t = XGpio_DiscreteRead(&LEDSWSInst,SWITCHES); //initial switch read
-
+    sumOverlap = 0; // used to reset old window overlap so it doesn't influence
+    				// the new average when behavioral states are changed
     while(1) {
     	// First case
         if(t == 0) {
@@ -124,22 +125,14 @@ void ADRun() {
         // Third Case
         else if (t == 4) {
                 while(t == 4) {
-                    sum = 0;
-                    sumOverlap = 0;
 
-                    // Fill window
+                	// Fill window
                     for (int t = 0; t<WINDOWSIZE; t++) {
                         AD1_GetSample(&myDevice, &RawData); // Capture raw samples
                         // Convert raw samples into floats scaled to 0 - VDD
                         AD1_RawToPhysical(ReferenceVoltage, RawData, &PhysicalData);
                         window[t] =  PhysicalData[0];
 
-                    }
-
-                    // Summed Overlap, not the total sum, just the sum of values to be removed
-                    // on next successive window array
-                    for(int t = 0; t<OVERLAP; t++) {
-                        sumOverlap = window[t] + sumOverlap;
                     }
 
                     // Sum of all values in window
@@ -151,6 +144,16 @@ void ADRun() {
                     // and divide by total number of samples in window
                     // Type-cast macro WINDOWSIZE because there's no explicit data type for macro
                     avg = (sum-sumOverlap) / (float) WINDOWSIZE;
+
+                    sum = 0;
+                    sumOverlap = 0;
+
+                    // Summed Overlap, not the total sum, just the sum of values to be removed
+                    // on next successive window array
+                    for(int t = 0; t<OVERLAP; t++) {
+                        sumOverlap = window[t] + sumOverlap;
+                    }
+
 
                     printf("%f\n",avg); //output to terminal
                     sleep(1); //per lab
