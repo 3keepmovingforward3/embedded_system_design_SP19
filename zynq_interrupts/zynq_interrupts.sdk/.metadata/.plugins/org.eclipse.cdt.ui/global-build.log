@@ -1,0 +1,2319 @@
+16:08:00 **** Build of project interrupt_counter_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from usleep.c:56:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:53:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+
+**** Build of configuration Debug for project interrupt_counter ****
+
+Nothing to build for project interrupt_counter
+16:09:14 **** Auto Build of configuration Debug for project interrupt_counter ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../interrupt_counter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: interrupt_counter.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../interrupt_counter_bsp/ps7_cortexa9_0/lib -o "interrupt_counter.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../interrupt_counter_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+C:\Zynq_Book\zynq_interrupts\zynq_interrupts.sdk\interrupt_counter_bsp\ps7_cortexa9_0\libsrc\standalone_v6_8\src/xil-crt0.S:138: undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: interrupt_counter.elf] Error 1
+16:09:24 **** Auto Build of configuration Debug for project interrupt_counter ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../interrupt_counter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: interrupt_counter.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../interrupt_counter_bsp/ps7_cortexa9_0/lib -o "interrupt_counter.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: interrupt_counter.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size interrupt_counter.elf  |tee "interrupt_counter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25144	   1952	  22632	  49728	   c240	interrupt_counter.elf
+'Finished building: interrupt_counter.elf.size'
+' '
+16:11:02 **** Incremental Build of configuration Debug for project interrupt_counter ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+11:56:01 **** Build of project interrupt_counter_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from usleep.c:56:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:53:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+11:56:28 **** Build of configuration Debug for project interrupt_counter ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../interrupt_counter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: interrupt_counter.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../interrupt_counter_bsp/ps7_cortexa9_0/lib -o "interrupt_counter.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: interrupt_counter.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size interrupt_counter.elf  |tee "interrupt_counter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25144	   1952	  22632	  49728	   c240	interrupt_counter.elf
+'Finished building: interrupt_counter.elf.size'
+' '
+11:56:58 **** Clean-only build of configuration Debug for project interrupt_counter ****
+make clean 
+rm -rf  ./src/main.o  ./src/main.d  interrupt_counter.elf.size  interrupt_counter.elf
+' '
+11:56:58 **** Clean-only build of project interrupt_counter_bsp ****
+make -k clean 
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s clean 
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s clean 
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s clean 
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s clean 
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s clean 
+make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s clean 
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s clean 
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s clean 
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s clean 
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s clean 
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s clean 
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s clean 
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s clean 
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s clean 
+make -C ps7_cortexa9_0/libsrc/tmrctr_v4_5/src -s clean 
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_7/src -s clean 
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s clean 
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s clean 
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s clean 
+rm -f ps7_cortexa9_0/lib/libxil.a
+11:56:59 **** Build of project interrupt_counter_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/tmrctr_v4_5/src"
+make -C ps7_cortexa9_0/libsrc/tmrctr_v4_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from usleep.c:56:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:53:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/tmrctr_v4_5/src"
+make -C ps7_cortexa9_0/libsrc/tmrctr_v4_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling tmrctr"
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+11:57:19 **** Build of configuration Debug for project interrupt_counter ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../interrupt_counter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: interrupt_counter.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../interrupt_counter_bsp/ps7_cortexa9_0/lib -o "interrupt_counter.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: interrupt_counter.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size interrupt_counter.elf  |tee "interrupt_counter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25188	   1968	  22632	  49788	   c27c	interrupt_counter.elf
+'Finished building: interrupt_counter.elf.size'
+' '
+11:57:23 **** Incremental Build of configuration Debug for project interrupt_counter ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+11:57:35 **** Auto Build of configuration Debug for project interrupt_counter ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../interrupt_counter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:107:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/main.c:3:0:
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xtmrctr.h:314:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: interrupt_counter.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../interrupt_counter_bsp/ps7_cortexa9_0/lib -o "interrupt_counter.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: interrupt_counter.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size interrupt_counter.elf  |tee "interrupt_counter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30020	   1984	  22680	  54684	   d59c	interrupt_counter.elf
+'Finished building: interrupt_counter.elf.size'
+' '
+11:59:22 **** Incremental Build of configuration Debug for project interrupt_counter ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+12:14:46 **** Auto Build of configuration Debug for project interrupt_counter ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../interrupt_counter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'BTN_Intr_Handler':
+../src/main.c:43:35: error: 'BTN_INT' undeclared (first use in this function)
+  XGpio_InterruptDisable(&BTNInst, BTN_INT);
+                                   ^~~~~~~
+../src/main.c:43:35: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c: In function 'main':
+../src/main.c:106:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/main.c:3:0:
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xtmrctr.h:314:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+12:15:00 **** Auto Build of configuration Debug for project interrupt_counter ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../interrupt_counter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'BTN_Intr_Handler':
+../src/main.c:45:44: error: 'BTN_INT' undeclared (first use in this function)
+  if ((XGpio_InterruptGetStatus(&BTNInst) & BTN_INT) !=
+                                            ^~~~~~~
+../src/main.c:45:44: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c: In function 'main':
+../src/main.c:106:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/main.c:3:0:
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xtmrctr.h:314:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+12:15:05 **** Auto Build of configuration Debug for project interrupt_counter ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../interrupt_counter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'BTN_Intr_Handler':
+../src/main.c:46:4: error: 'BTN_INT' undeclared (first use in this function)
+    BTN_INT) {
+    ^~~~~~~
+../src/main.c:46:4: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c: In function 'main':
+../src/main.c:106:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/main.c:3:0:
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xtmrctr.h:314:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+12:15:10 **** Auto Build of configuration Debug for project interrupt_counter ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../interrupt_counter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'BTN_Intr_Handler':
+../src/main.c:55:42: error: 'BTN_INT' undeclared (first use in this function)
+     (void)XGpio_InterruptClear(&BTNInst, BTN_INT);
+                                          ^~~~~~~
+../src/main.c:55:42: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c: In function 'main':
+../src/main.c:106:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/main.c:3:0:
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xtmrctr.h:314:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+12:15:18 **** Auto Build of configuration Debug for project interrupt_counter ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../interrupt_counter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'BTN_Intr_Handler':
+../src/main.c:57:37: error: 'BTN_INT' undeclared (first use in this function)
+     XGpio_InterruptEnable(&BTNInst, BTN_INT);
+                                     ^~~~~~~
+../src/main.c:57:37: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c: In function 'main':
+../src/main.c:106:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/main.c:3:0:
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xtmrctr.h:314:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+12:15:34 **** Auto Build of configuration Debug for project interrupt_counter ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../interrupt_counter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:106:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/main.c:3:0:
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xtmrctr.h:314:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: interrupt_counter.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../interrupt_counter_bsp/ps7_cortexa9_0/lib -o "interrupt_counter.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: interrupt_counter.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size interrupt_counter.elf  |tee "interrupt_counter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30020	   1984	  22680	  54684	   d59c	interrupt_counter.elf
+'Finished building: interrupt_counter.elf.size'
+' '
+12:17:26 **** Auto Build of configuration Debug for project interrupt_counter ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../interrupt_counter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:107:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/main.c:3:0:
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xtmrctr.h:314:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:32:13: warning: 'gpioInit' declared 'static' but never defined [-Wunused-function]
+ static void gpioInit();
+             ^~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: interrupt_counter.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../interrupt_counter_bsp/ps7_cortexa9_0/lib -o "interrupt_counter.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: interrupt_counter.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size interrupt_counter.elf  |tee "interrupt_counter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30020	   1984	  22680	  54684	   d59c	interrupt_counter.elf
+'Finished building: interrupt_counter.elf.size'
+' '
+12:17:58 **** Auto Build of configuration Debug for project interrupt_counter ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../interrupt_counter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:89:3: error: 'status' undeclared (first use in this function); did you mean 'XStatus'?
+   status = XTmrCtr_Initialize(&TMRInst, TMR_DEVICE_ID);
+   ^~~~~~
+   XStatus
+../src/main.c:89:3: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:91:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/main.c:3:0:
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xtmrctr.h:314:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+In file included from ../../interrupt_counter_bsp/ps7_cortexa9_0/include/xgpio.h:131:0,
+                 from ../src/main.c:2:
+../src/main.c: In function 'gpioInit':
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:179:37: note: in expansion of macro 'XST_FAILURE'
+    if(status != XST_SUCCESS) return XST_FAILURE;
+                                     ^~~~~~~~~~~
+../src/main.c:172:6: note: declared here
+ void gpioInit(){
+      ^~~~~~~~
+In file included from ../../interrupt_counter_bsp/ps7_cortexa9_0/include/xgpio.h:131:0,
+                 from ../src/main.c:2:
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:182:37: note: in expansion of macro 'XST_FAILURE'
+    if(status != XST_SUCCESS) return XST_FAILURE;
+                                     ^~~~~~~~~~~
+../src/main.c:172:6: note: declared here
+ void gpioInit(){
+      ^~~~~~~~
+At top level:
+../src/main.c:172:6: warning: 'gpioInit' defined but not used [-Wunused-function]
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+12:18:20 **** Auto Build of configuration Debug for project interrupt_counter ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../interrupt_counter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:92:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/main.c:3:0:
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xtmrctr.h:314:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+In file included from ../../interrupt_counter_bsp/ps7_cortexa9_0/include/xgpio.h:131:0,
+                 from ../src/main.c:2:
+../src/main.c: In function 'gpioInit':
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:180:37: note: in expansion of macro 'XST_FAILURE'
+    if(status != XST_SUCCESS) return XST_FAILURE;
+                                     ^~~~~~~~~~~
+../src/main.c:173:6: note: declared here
+ void gpioInit(){
+      ^~~~~~~~
+In file included from ../../interrupt_counter_bsp/ps7_cortexa9_0/include/xgpio.h:131:0,
+                 from ../src/main.c:2:
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:183:37: note: in expansion of macro 'XST_FAILURE'
+    if(status != XST_SUCCESS) return XST_FAILURE;
+                                     ^~~~~~~~~~~
+../src/main.c:173:6: note: declared here
+ void gpioInit(){
+      ^~~~~~~~
+At top level:
+../src/main.c:173:6: warning: 'gpioInit' defined but not used [-Wunused-function]
+'Finished building: ../src/main.c'
+' '
+'Building target: interrupt_counter.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../interrupt_counter_bsp/ps7_cortexa9_0/lib -o "interrupt_counter.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: interrupt_counter.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size interrupt_counter.elf  |tee "interrupt_counter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30040	   1984	  22680	  54704	   d5b0	interrupt_counter.elf
+'Finished building: interrupt_counter.elf.size'
+' '
+12:18:26 **** Auto Build of configuration Debug for project interrupt_counter ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../interrupt_counter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:93:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/main.c:3:0:
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xtmrctr.h:314:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+In file included from ../../interrupt_counter_bsp/ps7_cortexa9_0/include/xgpio.h:131:0,
+                 from ../src/main.c:2:
+../src/main.c: In function 'gpioInit':
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:181:37: note: in expansion of macro 'XST_FAILURE'
+    if(status != XST_SUCCESS) return XST_FAILURE;
+                                     ^~~~~~~~~~~
+../src/main.c:174:6: note: declared here
+ void gpioInit(){
+      ^~~~~~~~
+In file included from ../../interrupt_counter_bsp/ps7_cortexa9_0/include/xgpio.h:131:0,
+                 from ../src/main.c:2:
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:184:37: note: in expansion of macro 'XST_FAILURE'
+    if(status != XST_SUCCESS) return XST_FAILURE;
+                                     ^~~~~~~~~~~
+../src/main.c:174:6: note: declared here
+ void gpioInit(){
+      ^~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: interrupt_counter.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../interrupt_counter_bsp/ps7_cortexa9_0/lib -o "interrupt_counter.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: interrupt_counter.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size interrupt_counter.elf  |tee "interrupt_counter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30044	   1984	  22680	  54708	   d5b4	interrupt_counter.elf
+'Finished building: interrupt_counter.elf.size'
+' '
+12:19:45 **** Auto Build of configuration Debug for project interrupt_counter ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../interrupt_counter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../interrupt_counter_bsp/ps7_cortexa9_0/include/xgpio.h:131:0,
+                 from ../src/main.c:2:
+../src/main.c: In function 'gpioInit':
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:175:37: note: in expansion of macro 'XST_FAILURE'
+    if(status != XST_SUCCESS) return XST_FAILURE;
+                                     ^~~~~~~~~~~
+../src/main.c:168:6: note: declared here
+ void gpioInit(){
+      ^~~~~~~~
+In file included from ../../interrupt_counter_bsp/ps7_cortexa9_0/include/xgpio.h:131:0,
+                 from ../src/main.c:2:
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:178:37: note: in expansion of macro 'XST_FAILURE'
+    if(status != XST_SUCCESS) return XST_FAILURE;
+                                     ^~~~~~~~~~~
+../src/main.c:168:6: note: declared here
+ void gpioInit(){
+      ^~~~~~~~
+In file included from ../../interrupt_counter_bsp/ps7_cortexa9_0/include/xgpio.h:131:0,
+                 from ../src/main.c:2:
+../src/main.c: In function 'timerSetup':
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:191:37: note: in expansion of macro 'XST_FAILURE'
+    if(status != XST_SUCCESS) return XST_FAILURE;
+                                     ^~~~~~~~~~~
+../src/main.c:185:6: note: declared here
+ void timerSetup(){
+      ^~~~~~~~~~
+../src/main.c:192:33: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+    XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                 ^~~~~~~~~~~~~~~~
+In file included from ../src/main.c:3:0:
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xtmrctr.h:314:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+At top level:
+../src/main.c:185:6: warning: 'timerSetup' defined but not used [-Wunused-function]
+ void timerSetup(){
+      ^~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: interrupt_counter.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../interrupt_counter_bsp/ps7_cortexa9_0/lib -o "interrupt_counter.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: interrupt_counter.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size interrupt_counter.elf  |tee "interrupt_counter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30064	   1984	  22680	  54728	   d5c8	interrupt_counter.elf
+'Finished building: interrupt_counter.elf.size'
+' '
+12:20:22 **** Auto Build of configuration Debug for project interrupt_counter ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../interrupt_counter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../interrupt_counter_bsp/ps7_cortexa9_0/include/xgpio.h:131:0,
+                 from ../src/main.c:2:
+../src/main.c: In function 'gpioInit':
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:175:37: note: in expansion of macro 'XST_FAILURE'
+    if(status != XST_SUCCESS) return XST_FAILURE;
+                                     ^~~~~~~~~~~
+../src/main.c:168:6: note: declared here
+ void gpioInit(){
+      ^~~~~~~~
+In file included from ../../interrupt_counter_bsp/ps7_cortexa9_0/include/xgpio.h:131:0,
+                 from ../src/main.c:2:
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:178:37: note: in expansion of macro 'XST_FAILURE'
+    if(status != XST_SUCCESS) return XST_FAILURE;
+                                     ^~~~~~~~~~~
+../src/main.c:168:6: note: declared here
+ void gpioInit(){
+      ^~~~~~~~
+In file included from ../../interrupt_counter_bsp/ps7_cortexa9_0/include/xgpio.h:131:0,
+                 from ../src/main.c:2:
+../src/main.c: In function 'timerSetup':
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:192:37: note: in expansion of macro 'XST_FAILURE'
+    if(status != XST_SUCCESS) return XST_FAILURE;
+                                     ^~~~~~~~~~~
+../src/main.c:185:6: note: declared here
+ void timerSetup(){
+      ^~~~~~~~~~
+../src/main.c:194:33: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+    XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                 ^~~~~~~~~~~~~~~~
+In file included from ../src/main.c:3:0:
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xtmrctr.h:314:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: interrupt_counter.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../interrupt_counter_bsp/ps7_cortexa9_0/lib -o "interrupt_counter.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: interrupt_counter.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size interrupt_counter.elf  |tee "interrupt_counter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30068	   1984	  22680	  54732	   d5cc	interrupt_counter.elf
+'Finished building: interrupt_counter.elf.size'
+' '
+12:21:24 **** Auto Build of configuration Debug for project interrupt_counter ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../interrupt_counter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:88:7: warning: unused variable 'status' [-Wunused-variable]
+   int status;
+       ^~~~~~
+In file included from ../../interrupt_counter_bsp/ps7_cortexa9_0/include/xgpio.h:131:0,
+                 from ../src/main.c:2:
+../src/main.c: In function 'gpioInit':
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:165:37: note: in expansion of macro 'XST_FAILURE'
+    if(status != XST_SUCCESS) return XST_FAILURE;
+                                     ^~~~~~~~~~~
+../src/main.c:158:6: note: declared here
+ void gpioInit(){
+      ^~~~~~~~
+In file included from ../../interrupt_counter_bsp/ps7_cortexa9_0/include/xgpio.h:131:0,
+                 from ../src/main.c:2:
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:168:37: note: in expansion of macro 'XST_FAILURE'
+    if(status != XST_SUCCESS) return XST_FAILURE;
+                                     ^~~~~~~~~~~
+../src/main.c:158:6: note: declared here
+ void gpioInit(){
+      ^~~~~~~~
+In file included from ../../interrupt_counter_bsp/ps7_cortexa9_0/include/xgpio.h:131:0,
+                 from ../src/main.c:2:
+../src/main.c: In function 'timerSetup':
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:182:37: note: in expansion of macro 'XST_FAILURE'
+    if(status != XST_SUCCESS) return XST_FAILURE;
+                                     ^~~~~~~~~~~
+../src/main.c:175:6: note: declared here
+ void timerSetup(){
+      ^~~~~~~~~~
+../src/main.c:184:33: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+    XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                 ^~~~~~~~~~~~~~~~
+In file included from ../src/main.c:3:0:
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xtmrctr.h:314:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'interruptSetup':
+../src/main.c:191:4: error: 'status' undeclared (first use in this function); did you mean 'XStatus'?
+    status = IntcInitFunction(INTC_DEVICE_ID, &TMRInst, &BTNInst);
+    ^~~~~~
+    XStatus
+../src/main.c:191:4: note: each undeclared identifier is reported only once for each function it appears in
+In file included from ../../interrupt_counter_bsp/ps7_cortexa9_0/include/xgpio.h:131:0,
+                 from ../src/main.c:2:
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:192:37: note: in expansion of macro 'XST_FAILURE'
+    if(status != XST_SUCCESS) return XST_FAILURE;
+                                     ^~~~~~~~~~~
+../src/main.c:189:6: note: declared here
+ void interruptSetup(){
+      ^~~~~~~~~~~~~~
+At top level:
+../src/main.c:189:6: warning: 'interruptSetup' defined but not used [-Wunused-function]
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+12:21:31 **** Auto Build of configuration Debug for project interrupt_counter ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../interrupt_counter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:88:7: warning: unused variable 'status' [-Wunused-variable]
+   int status;
+       ^~~~~~
+In file included from ../../interrupt_counter_bsp/ps7_cortexa9_0/include/xgpio.h:131:0,
+                 from ../src/main.c:2:
+../src/main.c: In function 'gpioInit':
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:165:37: note: in expansion of macro 'XST_FAILURE'
+    if(status != XST_SUCCESS) return XST_FAILURE;
+                                     ^~~~~~~~~~~
+../src/main.c:158:6: note: declared here
+ void gpioInit(){
+      ^~~~~~~~
+In file included from ../../interrupt_counter_bsp/ps7_cortexa9_0/include/xgpio.h:131:0,
+                 from ../src/main.c:2:
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:168:37: note: in expansion of macro 'XST_FAILURE'
+    if(status != XST_SUCCESS) return XST_FAILURE;
+                                     ^~~~~~~~~~~
+../src/main.c:158:6: note: declared here
+ void gpioInit(){
+      ^~~~~~~~
+In file included from ../../interrupt_counter_bsp/ps7_cortexa9_0/include/xgpio.h:131:0,
+                 from ../src/main.c:2:
+../src/main.c: In function 'timerSetup':
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:182:37: note: in expansion of macro 'XST_FAILURE'
+    if(status != XST_SUCCESS) return XST_FAILURE;
+                                     ^~~~~~~~~~~
+../src/main.c:175:6: note: declared here
+ void timerSetup(){
+      ^~~~~~~~~~
+../src/main.c:184:33: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+    XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                 ^~~~~~~~~~~~~~~~
+In file included from ../src/main.c:3:0:
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xtmrctr.h:314:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+In file included from ../../interrupt_counter_bsp/ps7_cortexa9_0/include/xgpio.h:131:0,
+                 from ../src/main.c:2:
+../src/main.c: In function 'interruptSetup':
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:193:37: note: in expansion of macro 'XST_FAILURE'
+    if(status != XST_SUCCESS) return XST_FAILURE;
+                                     ^~~~~~~~~~~
+../src/main.c:189:6: note: declared here
+ void interruptSetup(){
+      ^~~~~~~~~~~~~~
+At top level:
+../src/main.c:189:6: warning: 'interruptSetup' defined but not used [-Wunused-function]
+'Finished building: ../src/main.c'
+' '
+'Building target: interrupt_counter.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../interrupt_counter_bsp/ps7_cortexa9_0/lib -o "interrupt_counter.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: interrupt_counter.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size interrupt_counter.elf  |tee "interrupt_counter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30072	   1984	  22680	  54736	   d5d0	interrupt_counter.elf
+'Finished building: interrupt_counter.elf.size'
+' '
+12:22:04 **** Auto Build of configuration Debug for project interrupt_counter ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../interrupt_counter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:88:7: warning: unused variable 'status' [-Wunused-variable]
+   int status;
+       ^~~~~~
+In file included from ../../interrupt_counter_bsp/ps7_cortexa9_0/include/xgpio.h:131:0,
+                 from ../src/main.c:2:
+../src/main.c: In function 'gpioInit':
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:166:37: note: in expansion of macro 'XST_FAILURE'
+    if(status != XST_SUCCESS) return XST_FAILURE;
+                                     ^~~~~~~~~~~
+../src/main.c:159:6: note: declared here
+ void gpioInit(){
+      ^~~~~~~~
+In file included from ../../interrupt_counter_bsp/ps7_cortexa9_0/include/xgpio.h:131:0,
+                 from ../src/main.c:2:
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:169:37: note: in expansion of macro 'XST_FAILURE'
+    if(status != XST_SUCCESS) return XST_FAILURE;
+                                     ^~~~~~~~~~~
+../src/main.c:159:6: note: declared here
+ void gpioInit(){
+      ^~~~~~~~
+In file included from ../../interrupt_counter_bsp/ps7_cortexa9_0/include/xgpio.h:131:0,
+                 from ../src/main.c:2:
+../src/main.c: In function 'timerSetup':
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:183:37: note: in expansion of macro 'XST_FAILURE'
+    if(status != XST_SUCCESS) return XST_FAILURE;
+                                     ^~~~~~~~~~~
+../src/main.c:176:6: note: declared here
+ void timerSetup(){
+      ^~~~~~~~~~
+../src/main.c:185:33: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+    XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                 ^~~~~~~~~~~~~~~~
+In file included from ../src/main.c:3:0:
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xtmrctr.h:314:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+In file included from ../../interrupt_counter_bsp/ps7_cortexa9_0/include/xgpio.h:131:0,
+                 from ../src/main.c:2:
+../src/main.c: In function 'interruptSetup':
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:195:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:190:6: note: declared here
+ void interruptSetup(){
+      ^~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: interrupt_counter.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../interrupt_counter_bsp/ps7_cortexa9_0/lib -o "interrupt_counter.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: interrupt_counter.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size interrupt_counter.elf  |tee "interrupt_counter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30076	   1984	  22680	  54740	   d5d4	interrupt_counter.elf
+'Finished building: interrupt_counter.elf.size'
+' '
+12:22:10 **** Auto Build of configuration Debug for project interrupt_counter ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../interrupt_counter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../interrupt_counter_bsp/ps7_cortexa9_0/include/xgpio.h:131:0,
+                 from ../src/main.c:2:
+../src/main.c: In function 'gpioInit':
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:165:37: note: in expansion of macro 'XST_FAILURE'
+    if(status != XST_SUCCESS) return XST_FAILURE;
+                                     ^~~~~~~~~~~
+../src/main.c:158:6: note: declared here
+ void gpioInit(){
+      ^~~~~~~~
+In file included from ../../interrupt_counter_bsp/ps7_cortexa9_0/include/xgpio.h:131:0,
+                 from ../src/main.c:2:
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:168:37: note: in expansion of macro 'XST_FAILURE'
+    if(status != XST_SUCCESS) return XST_FAILURE;
+                                     ^~~~~~~~~~~
+../src/main.c:158:6: note: declared here
+ void gpioInit(){
+      ^~~~~~~~
+In file included from ../../interrupt_counter_bsp/ps7_cortexa9_0/include/xgpio.h:131:0,
+                 from ../src/main.c:2:
+../src/main.c: In function 'timerSetup':
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:182:37: note: in expansion of macro 'XST_FAILURE'
+    if(status != XST_SUCCESS) return XST_FAILURE;
+                                     ^~~~~~~~~~~
+../src/main.c:175:6: note: declared here
+ void timerSetup(){
+      ^~~~~~~~~~
+../src/main.c:184:33: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+    XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                 ^~~~~~~~~~~~~~~~
+In file included from ../src/main.c:3:0:
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xtmrctr.h:314:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+In file included from ../../interrupt_counter_bsp/ps7_cortexa9_0/include/xgpio.h:131:0,
+                 from ../src/main.c:2:
+../src/main.c: In function 'interruptSetup':
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:194:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:189:6: note: declared here
+ void interruptSetup(){
+      ^~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: interrupt_counter.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../interrupt_counter_bsp/ps7_cortexa9_0/lib -o "interrupt_counter.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: interrupt_counter.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size interrupt_counter.elf  |tee "interrupt_counter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30076	   1984	  22680	  54740	   d5d4	interrupt_counter.elf
+'Finished building: interrupt_counter.elf.size'
+' '
+12:24:43 **** Incremental Build of configuration Debug for project interrupt_counter ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../interrupt_counter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../interrupt_counter_bsp/ps7_cortexa9_0/include/xgpio.h:131:0,
+                 from ../src/main.c:2:
+../src/main.c: In function 'gpioInit':
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:165:37: note: in expansion of macro 'XST_FAILURE'
+    if(status != XST_SUCCESS) return XST_FAILURE;
+                                     ^~~~~~~~~~~
+../src/main.c:158:6: note: declared here
+ void gpioInit(){
+      ^~~~~~~~
+In file included from ../../interrupt_counter_bsp/ps7_cortexa9_0/include/xgpio.h:131:0,
+                 from ../src/main.c:2:
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:168:37: note: in expansion of macro 'XST_FAILURE'
+    if(status != XST_SUCCESS) return XST_FAILURE;
+                                     ^~~~~~~~~~~
+../src/main.c:158:6: note: declared here
+ void gpioInit(){
+      ^~~~~~~~
+In file included from ../../interrupt_counter_bsp/ps7_cortexa9_0/include/xgpio.h:131:0,
+                 from ../src/main.c:2:
+../src/main.c: In function 'timerSetup':
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:182:37: note: in expansion of macro 'XST_FAILURE'
+    if(status != XST_SUCCESS) return XST_FAILURE;
+                                     ^~~~~~~~~~~
+../src/main.c:175:6: note: declared here
+ void timerSetup(){
+      ^~~~~~~~~~
+../src/main.c:184:33: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+    XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                 ^~~~~~~~~~~~~~~~
+In file included from ../src/main.c:3:0:
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xtmrctr.h:314:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+In file included from ../../interrupt_counter_bsp/ps7_cortexa9_0/include/xgpio.h:131:0,
+                 from ../src/main.c:2:
+../src/main.c: In function 'interruptSetup':
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:194:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:189:6: note: declared here
+ void interruptSetup(){
+      ^~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: interrupt_counter.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../interrupt_counter_bsp/ps7_cortexa9_0/lib -o "interrupt_counter.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: interrupt_counter.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size interrupt_counter.elf  |tee "interrupt_counter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30076	   1984	  22680	  54740	   d5d4	interrupt_counter.elf
+'Finished building: interrupt_counter.elf.size'
+' '
+12:25:18 **** Auto Build of configuration Debug for project interrupt_counter ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../interrupt_counter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../interrupt_counter_bsp/ps7_cortexa9_0/include/xgpio.h:131:0,
+                 from ../src/main.c:2:
+../src/main.c: In function 'gpioInit':
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:165:37: note: in expansion of macro 'XST_FAILURE'
+    if(status != XST_SUCCESS) return XST_FAILURE;
+                                     ^~~~~~~~~~~
+../src/main.c:158:6: note: declared here
+ void gpioInit(){
+      ^~~~~~~~
+In file included from ../../interrupt_counter_bsp/ps7_cortexa9_0/include/xgpio.h:131:0,
+                 from ../src/main.c:2:
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:168:37: note: in expansion of macro 'XST_FAILURE'
+    if(status != XST_SUCCESS) return XST_FAILURE;
+                                     ^~~~~~~~~~~
+../src/main.c:158:6: note: declared here
+ void gpioInit(){
+      ^~~~~~~~
+In file included from ../../interrupt_counter_bsp/ps7_cortexa9_0/include/xgpio.h:131:0,
+                 from ../src/main.c:2:
+../src/main.c: In function 'timerSetup':
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:182:37: note: in expansion of macro 'XST_FAILURE'
+    if(status != XST_SUCCESS) return XST_FAILURE;
+                                     ^~~~~~~~~~~
+../src/main.c:175:6: note: declared here
+ void timerSetup(){
+      ^~~~~~~~~~
+../src/main.c:184:33: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+    XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                 ^~~~~~~~~~~~~~~~
+In file included from ../src/main.c:3:0:
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xtmrctr.h:314:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+In file included from ../../interrupt_counter_bsp/ps7_cortexa9_0/include/xgpio.h:131:0,
+                 from ../src/main.c:2:
+../src/main.c: In function 'interruptSetup':
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:194:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:189:6: note: declared here
+ void interruptSetup(){
+      ^~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: interrupt_counter.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../interrupt_counter_bsp/ps7_cortexa9_0/lib -o "interrupt_counter.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: interrupt_counter.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size interrupt_counter.elf  |tee "interrupt_counter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30076	   1984	  22680	  54740	   d5d4	interrupt_counter.elf
+'Finished building: interrupt_counter.elf.size'
+' '
+12:25:24 **** Auto Build of configuration Debug for project interrupt_counter ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../interrupt_counter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../interrupt_counter_bsp/ps7_cortexa9_0/include/xgpio.h:131:0,
+                 from ../src/main.c:2:
+../src/main.c: In function 'gpioInit':
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:165:37: note: in expansion of macro 'XST_FAILURE'
+    if(status != XST_SUCCESS) return XST_FAILURE;
+                                     ^~~~~~~~~~~
+../src/main.c:158:6: note: declared here
+ void gpioInit(){
+      ^~~~~~~~
+In file included from ../../interrupt_counter_bsp/ps7_cortexa9_0/include/xgpio.h:131:0,
+                 from ../src/main.c:2:
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:168:37: note: in expansion of macro 'XST_FAILURE'
+    if(status != XST_SUCCESS) return XST_FAILURE;
+                                     ^~~~~~~~~~~
+../src/main.c:158:6: note: declared here
+ void gpioInit(){
+      ^~~~~~~~
+In file included from ../../interrupt_counter_bsp/ps7_cortexa9_0/include/xgpio.h:131:0,
+                 from ../src/main.c:2:
+../src/main.c: In function 'timerSetup':
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:182:37: note: in expansion of macro 'XST_FAILURE'
+    if(status != XST_SUCCESS) return XST_FAILURE;
+                                     ^~~~~~~~~~~
+../src/main.c:175:6: note: declared here
+ void timerSetup(){
+      ^~~~~~~~~~
+../src/main.c:184:33: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+    XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                 ^~~~~~~~~~~~~~~~
+In file included from ../src/main.c:3:0:
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xtmrctr.h:314:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+In file included from ../../interrupt_counter_bsp/ps7_cortexa9_0/include/xgpio.h:131:0,
+                 from ../src/main.c:2:
+../src/main.c: In function 'interruptSetup':
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:194:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:189:6: note: declared here
+ void interruptSetup(){
+      ^~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: interrupt_counter.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../interrupt_counter_bsp/ps7_cortexa9_0/lib -o "interrupt_counter.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: interrupt_counter.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size interrupt_counter.elf  |tee "interrupt_counter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30076	   1984	  22680	  54740	   d5d4	interrupt_counter.elf
+'Finished building: interrupt_counter.elf.size'
+' '
+12:25:36 **** Auto Build of configuration Debug for project interrupt_counter ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../interrupt_counter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../interrupt_counter_bsp/ps7_cortexa9_0/include/xgpio.h:131:0,
+                 from ../src/main.c:2:
+../src/main.c: In function 'gpioInit':
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:165:37: note: in expansion of macro 'XST_FAILURE'
+    if(status != XST_SUCCESS) return XST_FAILURE;
+                                     ^~~~~~~~~~~
+../src/main.c:158:6: note: declared here
+ void gpioInit(){
+      ^~~~~~~~
+In file included from ../../interrupt_counter_bsp/ps7_cortexa9_0/include/xgpio.h:131:0,
+                 from ../src/main.c:2:
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:168:37: note: in expansion of macro 'XST_FAILURE'
+    if(status != XST_SUCCESS) return XST_FAILURE;
+                                     ^~~~~~~~~~~
+../src/main.c:158:6: note: declared here
+ void gpioInit(){
+      ^~~~~~~~
+In file included from ../../interrupt_counter_bsp/ps7_cortexa9_0/include/xgpio.h:131:0,
+                 from ../src/main.c:2:
+../src/main.c: In function 'timerSetup':
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:182:37: note: in expansion of macro 'XST_FAILURE'
+    if(status != XST_SUCCESS) return XST_FAILURE;
+                                     ^~~~~~~~~~~
+../src/main.c:175:6: note: declared here
+ void timerSetup(){
+      ^~~~~~~~~~
+../src/main.c:184:33: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+    XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                 ^~~~~~~~~~~~~~~~
+In file included from ../src/main.c:3:0:
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xtmrctr.h:314:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+In file included from ../../interrupt_counter_bsp/ps7_cortexa9_0/include/xgpio.h:131:0,
+                 from ../src/main.c:2:
+../src/main.c: In function 'interruptSetup':
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:194:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:189:6: note: declared here
+ void interruptSetup(){
+      ^~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: interrupt_counter.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../interrupt_counter_bsp/ps7_cortexa9_0/lib -o "interrupt_counter.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: interrupt_counter.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size interrupt_counter.elf  |tee "interrupt_counter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30076	   1984	  22680	  54740	   d5d4	interrupt_counter.elf
+'Finished building: interrupt_counter.elf.size'
+' '
+12:26:32 **** Auto Build of configuration Debug for project interrupt_counter ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../interrupt_counter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:16:2: error: invalid preprocessing directive #macro
+ #macro
+  ^~~~~
+In file included from ../../interrupt_counter_bsp/ps7_cortexa9_0/include/xgpio.h:131:0,
+                 from ../src/main.c:2:
+../src/main.c: In function 'gpioInit':
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:167:37: note: in expansion of macro 'XST_FAILURE'
+    if(status != XST_SUCCESS) return XST_FAILURE;
+                                     ^~~~~~~~~~~
+../src/main.c:160:6: note: declared here
+ void gpioInit(){
+      ^~~~~~~~
+In file included from ../../interrupt_counter_bsp/ps7_cortexa9_0/include/xgpio.h:131:0,
+                 from ../src/main.c:2:
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:170:37: note: in expansion of macro 'XST_FAILURE'
+    if(status != XST_SUCCESS) return XST_FAILURE;
+                                     ^~~~~~~~~~~
+../src/main.c:160:6: note: declared here
+ void gpioInit(){
+      ^~~~~~~~
+In file included from ../../interrupt_counter_bsp/ps7_cortexa9_0/include/xgpio.h:131:0,
+                 from ../src/main.c:2:
+../src/main.c: In function 'timerSetup':
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:184:37: note: in expansion of macro 'XST_FAILURE'
+    if(status != XST_SUCCESS) return XST_FAILURE;
+                                     ^~~~~~~~~~~
+../src/main.c:177:6: note: declared here
+ void timerSetup(){
+      ^~~~~~~~~~
+../src/main.c:186:33: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+    XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                 ^~~~~~~~~~~~~~~~
+In file included from ../src/main.c:3:0:
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xtmrctr.h:314:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+In file included from ../../interrupt_counter_bsp/ps7_cortexa9_0/include/xgpio.h:131:0,
+                 from ../src/main.c:2:
+../src/main.c: In function 'interruptSetup':
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:196:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:191:6: note: declared here
+ void interruptSetup(){
+      ^~~~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+12:26:49 **** Auto Build of configuration Debug for project interrupt_counter ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../interrupt_counter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../interrupt_counter_bsp/ps7_cortexa9_0/include/xgpio.h:131:0,
+                 from ../src/main.c:2:
+../src/main.c: In function 'gpioInit':
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:165:37: note: in expansion of macro 'XST_FAILURE'
+    if(status != XST_SUCCESS) return XST_FAILURE;
+                                     ^~~~~~~~~~~
+../src/main.c:158:6: note: declared here
+ void gpioInit(){
+      ^~~~~~~~
+In file included from ../../interrupt_counter_bsp/ps7_cortexa9_0/include/xgpio.h:131:0,
+                 from ../src/main.c:2:
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:168:37: note: in expansion of macro 'XST_FAILURE'
+    if(status != XST_SUCCESS) return XST_FAILURE;
+                                     ^~~~~~~~~~~
+../src/main.c:158:6: note: declared here
+ void gpioInit(){
+      ^~~~~~~~
+In file included from ../../interrupt_counter_bsp/ps7_cortexa9_0/include/xgpio.h:131:0,
+                 from ../src/main.c:2:
+../src/main.c: In function 'timerSetup':
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:182:37: note: in expansion of macro 'XST_FAILURE'
+    if(status != XST_SUCCESS) return XST_FAILURE;
+                                     ^~~~~~~~~~~
+../src/main.c:175:6: note: declared here
+ void timerSetup(){
+      ^~~~~~~~~~
+../src/main.c:184:33: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+    XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                 ^~~~~~~~~~~~~~~~
+In file included from ../src/main.c:3:0:
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xtmrctr.h:314:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+In file included from ../../interrupt_counter_bsp/ps7_cortexa9_0/include/xgpio.h:131:0,
+                 from ../src/main.c:2:
+../src/main.c: In function 'interruptSetup':
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:194:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:189:6: note: declared here
+ void interruptSetup(){
+      ^~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: interrupt_counter.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../interrupt_counter_bsp/ps7_cortexa9_0/lib -o "interrupt_counter.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: interrupt_counter.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size interrupt_counter.elf  |tee "interrupt_counter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30076	   1984	  22680	  54740	   d5d4	interrupt_counter.elf
+'Finished building: interrupt_counter.elf.size'
+' '
+12:29:27 **** Auto Build of configuration Debug for project interrupt_counter ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../interrupt_counter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'timerSetup':
+../src/main.c:184:33: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+    XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                 ^~~~~~~~~~~~~~~~
+In file included from ../src/main.c:3:0:
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xtmrctr.h:314:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'gpioInit':
+../src/main.c:173:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/main.c: In function 'timerSetup':
+../src/main.c:187:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/main.c: In function 'interruptSetup':
+../src/main.c:197:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: interrupt_counter.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../interrupt_counter_bsp/ps7_cortexa9_0/lib -o "interrupt_counter.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: interrupt_counter.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size interrupt_counter.elf  |tee "interrupt_counter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30088	   1984	  22680	  54752	   d5e0	interrupt_counter.elf
+'Finished building: interrupt_counter.elf.size'
+' '
+12:29:53 **** Auto Build of configuration Debug for project interrupt_counter ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../interrupt_counter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'timerSetup':
+../src/main.c:184:33: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+    XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                 ^~~~~~~~~~~~~~~~
+In file included from ../src/main.c:3:0:
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xtmrctr.h:314:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+../src/main.c:188:1: error: expected ';' before '}' token
+ }
+ ^
+../src/main.c: In function 'gpioInit':
+../src/main.c:173:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/main.c: In function 'interruptSetup':
+../src/main.c:198:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+12:29:57 **** Auto Build of configuration Debug for project interrupt_counter ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../interrupt_counter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'timerSetup':
+../src/main.c:184:33: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+    XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                 ^~~~~~~~~~~~~~~~
+In file included from ../src/main.c:3:0:
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xtmrctr.h:314:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'gpioInit':
+../src/main.c:173:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/main.c: In function 'interruptSetup':
+../src/main.c:198:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: interrupt_counter.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../interrupt_counter_bsp/ps7_cortexa9_0/lib -o "interrupt_counter.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: interrupt_counter.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size interrupt_counter.elf  |tee "interrupt_counter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30092	   1984	  22680	  54756	   d5e4	interrupt_counter.elf
+'Finished building: interrupt_counter.elf.size'
+' '
+12:30:08 **** Auto Build of configuration Debug for project interrupt_counter ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../interrupt_counter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'timerSetup':
+../src/main.c:184:33: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+    XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                 ^~~~~~~~~~~~~~~~
+In file included from ../src/main.c:3:0:
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xtmrctr.h:314:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'gpioInit':
+../src/main.c:173:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/main.c'
+' '
+'Building target: interrupt_counter.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../interrupt_counter_bsp/ps7_cortexa9_0/lib -o "interrupt_counter.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: interrupt_counter.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size interrupt_counter.elf  |tee "interrupt_counter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30096	   1984	  22680	  54760	   d5e8	interrupt_counter.elf
+'Finished building: interrupt_counter.elf.size'
+' '
+12:30:29 **** Auto Build of configuration Debug for project interrupt_counter ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../interrupt_counter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'timerSetup':
+../src/main.c:185:33: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+    XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                 ^~~~~~~~~~~~~~~~
+In file included from ../src/main.c:3:0:
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xtmrctr.h:314:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: interrupt_counter.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../interrupt_counter_bsp/ps7_cortexa9_0/lib -o "interrupt_counter.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: interrupt_counter.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size interrupt_counter.elf  |tee "interrupt_counter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30100	   1984	  22680	  54764	   d5ec	interrupt_counter.elf
+'Finished building: interrupt_counter.elf.size'
+' '
+21:09:54 **** Auto Build of configuration Debug for project interrupt_counter ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../interrupt_counter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'timerSetup':
+../src/main.c:184:33: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+    XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                 ^~~~~~~~~~~~~~~~
+In file included from ../src/main.c:3:0:
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xtmrctr.h:314:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: interrupt_counter.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../interrupt_counter_bsp/ps7_cortexa9_0/lib -o "interrupt_counter.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: interrupt_counter.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size interrupt_counter.elf  |tee "interrupt_counter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30100	   1984	  22680	  54764	   d5ec	interrupt_counter.elf
+'Finished building: interrupt_counter.elf.size'
+' '
+21:11:21 **** Auto Build of configuration Debug for project interrupt_counter ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../interrupt_counter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'timerSetup':
+../src/main.c:182:33: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+    XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                 ^~~~~~~~~~~~~~~~
+In file included from ../src/main.c:3:0:
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xtmrctr.h:314:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: interrupt_counter.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../interrupt_counter_bsp/ps7_cortexa9_0/lib -o "interrupt_counter.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: interrupt_counter.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size interrupt_counter.elf  |tee "interrupt_counter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30100	   1984	  22680	  54764	   d5ec	interrupt_counter.elf
+'Finished building: interrupt_counter.elf.size'
+' '
+21:13:58 **** Auto Build of configuration Debug for project interrupt_counter ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../interrupt_counter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'timerSetup':
+../src/main.c:180:33: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+    XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                 ^~~~~~~~~~~~~~~~
+In file included from ../src/main.c:3:0:
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xtmrctr.h:314:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: interrupt_counter.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../interrupt_counter_bsp/ps7_cortexa9_0/lib -o "interrupt_counter.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: interrupt_counter.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size interrupt_counter.elf  |tee "interrupt_counter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30100	   1984	  22680	  54764	   d5ec	interrupt_counter.elf
+'Finished building: interrupt_counter.elf.size'
+' '
+21:14:24 **** Auto Build of configuration Debug for project interrupt_counter ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../interrupt_counter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'timerSetup':
+../src/main.c:179:33: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+    XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                 ^~~~~~~~~~~~~~~~
+In file included from ../src/main.c:3:0:
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xtmrctr.h:314:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: interrupt_counter.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../interrupt_counter_bsp/ps7_cortexa9_0/lib -o "interrupt_counter.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: interrupt_counter.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size interrupt_counter.elf  |tee "interrupt_counter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30100	   1984	  22680	  54764	   d5ec	interrupt_counter.elf
+'Finished building: interrupt_counter.elf.size'
+' '
+21:14:51 **** Auto Build of configuration Debug for project interrupt_counter ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../interrupt_counter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'timerSetup':
+../src/main.c:179:33: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+    XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                 ^~~~~~~~~~~~~~~~
+In file included from ../src/main.c:3:0:
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xtmrctr.h:314:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: interrupt_counter.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../interrupt_counter_bsp/ps7_cortexa9_0/lib -o "interrupt_counter.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: interrupt_counter.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size interrupt_counter.elf  |tee "interrupt_counter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30100	   1984	  22680	  54764	   d5ec	interrupt_counter.elf
+'Finished building: interrupt_counter.elf.size'
+' '
+21:16:11 **** Auto Build of configuration Debug for project interrupt_counter ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../interrupt_counter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'timerSetup':
+../src/main.c:178:33: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+    XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                 ^~~~~~~~~~~~~~~~
+In file included from ../src/main.c:3:0:
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xtmrctr.h:314:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: interrupt_counter.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../interrupt_counter_bsp/ps7_cortexa9_0/lib -o "interrupt_counter.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: interrupt_counter.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size interrupt_counter.elf  |tee "interrupt_counter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30100	   1984	  22680	  54764	   d5ec	interrupt_counter.elf
+'Finished building: interrupt_counter.elf.size'
+' '
+21:38:56 **** Auto Build of configuration Debug for project interrupt_counter ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../interrupt_counter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'timerSetup':
+../src/main.c:185:33: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+    XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                 ^~~~~~~~~~~~~~~~
+In file included from ../src/main.c:3:0:
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xtmrctr.h:314:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+At top level:
+../src/main.c:19:12: warning: 'swi_value' defined but not used [-Wunused-variable]
+ static int swi_value;
+            ^~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: interrupt_counter.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../interrupt_counter_bsp/ps7_cortexa9_0/lib -o "interrupt_counter.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: interrupt_counter.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size interrupt_counter.elf  |tee "interrupt_counter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30160	   1984	  22712	  54856	   d648	interrupt_counter.elf
+'Finished building: interrupt_counter.elf.size'
+' '
+22:08:16 **** Auto Build of configuration Debug for project interrupt_counter ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../interrupt_counter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'timerSetup':
+../src/main.c:187:33: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+    XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                 ^~~~~~~~~~~~~~~~
+In file included from ../src/main.c:3:0:
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xtmrctr.h:314:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'resetStatus':
+../src/main.c:206:2: warning: implicit declaration of function 'sleep'; did you mean 'strsep'? [-Wimplicit-function-declaration]
+  sleep(1);
+  ^~~~~
+  strsep
+At top level:
+../src/main.c:204:6: warning: 'resetStatus' defined but not used [-Wunused-function]
+ void resetStatus(){
+      ^~~~~~~~~~~
+../src/main.c:19:12: warning: 'swi_value' defined but not used [-Wunused-variable]
+ static int swi_value;
+            ^~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: interrupt_counter.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../interrupt_counter_bsp/ps7_cortexa9_0/lib -o "interrupt_counter.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: interrupt_counter.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size interrupt_counter.elf  |tee "interrupt_counter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30380	   1984	  22712	  55076	   d724	interrupt_counter.elf
+'Finished building: interrupt_counter.elf.size'
+' '
+22:08:46 **** Clean-only build of configuration Debug for project interrupt_counter ****
+make clean 
+rm -rf  ./src/main.o  ./src/main.d  interrupt_counter.elf.size  interrupt_counter.elf
+' '
+22:08:46 **** Clean-only build of project interrupt_counter_bsp ****
+make -k clean 
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s clean 
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s clean 
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s clean 
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s clean 
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s clean 
+make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s clean 
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s clean 
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s clean 
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s clean 
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s clean 
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s clean 
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s clean 
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s clean 
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s clean 
+make -C ps7_cortexa9_0/libsrc/tmrctr_v4_5/src -s clean 
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_7/src -s clean 
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s clean 
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s clean 
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s clean 
+rm -f ps7_cortexa9_0/lib/libxil.a
+22:08:47 **** Build of project interrupt_counter_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/tmrctr_v4_5/src"
+make -C ps7_cortexa9_0/libsrc/tmrctr_v4_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from usleep.c:56:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:53:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/tmrctr_v4_5/src"
+make -C ps7_cortexa9_0/libsrc/tmrctr_v4_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling tmrctr"
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+22:09:08 **** Build of configuration Debug for project interrupt_counter ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../interrupt_counter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'gpioInit':
+../src/main.c:166:40: error: 'XPAR_AXI_GPIO_2_DEVICE_ID' undeclared (first use in this function); did you mean 'XPAR_AXI_GPIO_1_DEVICE_ID'?
+    status = XGpio_Initialize(&SWIInst, XPAR_AXI_GPIO_2_DEVICE_ID);
+                                        ^~~~~~~~~~~~~~~~~~~~~~~~~
+                                        XPAR_AXI_GPIO_1_DEVICE_ID
+../src/main.c:166:40: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c: In function 'timerSetup':
+../src/main.c:187:33: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+    XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                 ^~~~~~~~~~~~~~~~
+In file included from ../src/main.c:3:0:
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xtmrctr.h:314:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'resetStatus':
+../src/main.c:206:2: warning: implicit declaration of function 'sleep'; did you mean 'strsep'? [-Wimplicit-function-declaration]
+  sleep(1);
+  ^~~~~
+  strsep
+At top level:
+../src/main.c:204:6: warning: 'resetStatus' defined but not used [-Wunused-function]
+ void resetStatus(){
+      ^~~~~~~~~~~
+../src/main.c:19:12: warning: 'swi_value' defined but not used [-Wunused-variable]
+ static int swi_value;
+            ^~~~~~~~~
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+22:10:39 **** Auto Build of configuration Debug for project interrupt_counter ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../interrupt_counter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'timerSetup':
+../src/main.c:185:33: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+    XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                 ^~~~~~~~~~~~~~~~
+In file included from ../src/main.c:3:0:
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xtmrctr.h:314:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'resetStatus':
+../src/main.c:204:2: warning: implicit declaration of function 'sleep'; did you mean 'strsep'? [-Wimplicit-function-declaration]
+  sleep(1);
+  ^~~~~
+  strsep
+At top level:
+../src/main.c:202:6: warning: 'resetStatus' defined but not used [-Wunused-function]
+ void resetStatus(){
+      ^~~~~~~~~~~
+../src/main.c:19:12: warning: 'swi_value' defined but not used [-Wunused-variable]
+ static int swi_value;
+            ^~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: interrupt_counter.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../interrupt_counter_bsp/ps7_cortexa9_0/lib -o "interrupt_counter.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: interrupt_counter.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size interrupt_counter.elf  |tee "interrupt_counter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30296	   1968	  22696	  54960	   d6b0	interrupt_counter.elf
+'Finished building: interrupt_counter.elf.size'
+' '
+22:11:31 **** Auto Build of configuration Debug for project interrupt_counter ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../interrupt_counter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'timerSetup':
+../src/main.c:186:33: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+    XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                 ^~~~~~~~~~~~~~~~
+In file included from ../src/main.c:3:0:
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xtmrctr.h:314:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+At top level:
+../src/main.c:203:6: warning: 'resetStatus' defined but not used [-Wunused-function]
+ void resetStatus(){
+      ^~~~~~~~~~~
+../src/main.c:20:12: warning: 'swi_value' defined but not used [-Wunused-variable]
+ static int swi_value;
+            ^~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: interrupt_counter.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../interrupt_counter_bsp/ps7_cortexa9_0/lib -o "interrupt_counter.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: interrupt_counter.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size interrupt_counter.elf  |tee "interrupt_counter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30296	   1968	  22696	  54960	   d6b0	interrupt_counter.elf
+'Finished building: interrupt_counter.elf.size'
+' '

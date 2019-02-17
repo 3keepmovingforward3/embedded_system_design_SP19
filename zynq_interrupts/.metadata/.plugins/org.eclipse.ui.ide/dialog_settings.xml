@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\Zynq_Book\zynq_interrupts"/>
+	</list>
+	<section name="CleanDialogSettings">
+		<item value="576" key="DIALOG_WIDTH"/>
+		<item value="false" key="TOGGLE_SELECTED"/>
+		<item value="357" key="DIALOG_HEIGHT"/>
+		<item value="249" key="DIALOG_X_ORIGIN"/>
+		<item value="171" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

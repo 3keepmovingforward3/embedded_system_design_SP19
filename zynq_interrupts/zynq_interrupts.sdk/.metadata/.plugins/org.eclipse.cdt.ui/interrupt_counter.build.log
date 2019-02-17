@@ -1,0 +1,38 @@
+22:11:31 **** Auto Build of configuration Debug for project interrupt_counter ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../interrupt_counter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'timerSetup':
+../src/main.c:186:33: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+    XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                 ^~~~~~~~~~~~~~~~
+In file included from ../src/main.c:3:0:
+../../interrupt_counter_bsp/ps7_cortexa9_0/include/xtmrctr.h:314:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+At top level:
+../src/main.c:203:6: warning: 'resetStatus' defined but not used [-Wunused-function]
+ void resetStatus(){
+      ^~~~~~~~~~~
+../src/main.c:20:12: warning: 'swi_value' defined but not used [-Wunused-variable]
+ static int swi_value;
+            ^~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: interrupt_counter.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../interrupt_counter_bsp/ps7_cortexa9_0/lib -o "interrupt_counter.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: interrupt_counter.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size interrupt_counter.elf  |tee "interrupt_counter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30296	   1968	  22696	  54960	   d6b0	interrupt_counter.elf
+'Finished building: interrupt_counter.elf.size'
+' '
+
+22:11:32 Build Finished (took 687ms)
+

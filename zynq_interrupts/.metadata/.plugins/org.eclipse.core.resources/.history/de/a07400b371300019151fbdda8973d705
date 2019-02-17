@@ -1,0 +1,49 @@
+/*
+ * setup.h
+ *
+ *  Created on: Feb 14, 2019
+ *      Author: bblouin
+ */
+
+#ifndef SRC_SETUP_H_
+#define SRC_SETUP_H_
+
+#include "xparameters.h"
+#include "xgpio.h"
+#include "xtmrctr.h"
+#include "xscugic.h"
+#include "xil_exception.h"
+#include "xil_printf.h"
+#include "sleep.h"
+#include "stdio.h"
+
+// Parameter definitions
+#define INTC_DEVICE_ID 			XPAR_PS7_SCUGIC_0_DEVICE_ID
+#define TMR_DEVICE_ID			XPAR_TMRCTR_0_DEVICE_ID
+#define BTNS_DEVICE_ID			XPAR_AXI_GPIO_0_DEVICE_ID
+#define LEDS_DEVICE_ID			XPAR_AXI_GPIO_1_DEVICE_ID
+#define SWTS_DEVICE_ID			XPAR_AXI_GPIO_2_DEVICE_ID
+#define INTC_GPIO_INTERRUPT_ID 	XPAR_FABRIC_AXI_GPIO_0_IP2INTC_IRPT_INTR
+#define INTC_TMR_INTERRUPT_ID 	XPAR_FABRIC_AXI_TIMER_0_INTERRUPT_INTR
+#define BTN_INT 				XGPIO_IR_CH1_MASK
+#define TMR_LOAD				0xF8000000
+
+void GPIOInit(XGpio LEDInst, XGpio BTNInst, XGpio &SWTInst){
+	  //----------------------------------------------------
+	  // INITIALIZE THE PERIPHERALS & SET DIRECTIONS OF GPIO
+	  //----------------------------------------------------
+	  // Initialize LEDs
+	  XGpio_Initialize(&LEDInst, LEDS_DEVICE_ID);
+	  // Initialize Push Buttons
+	  XGpio_Initialize(&BTNInst, BTNS_DEVICE_ID);
+	  // Initialize Push Buttons
+	  XGpio_Initialize(&SWTInst, SWTS_DEVICE_ID);
+	  // Set LEDs direction to outputs
+	  XGpio_SetDataDirection(&LEDInst, 1, 0x00);
+	  // Set Switches direction to outputs
+	  XGpio_SetDataDirection(&SWTInst, 1, 0xF); //1000
+	  // Set all buttons direction to inputs
+	  XGpio_SetDataDirection(&BTNInst, 1, 0xFF);
+}
+
+#endif /* SRC_SETUP_H_ */
