@@ -33,7 +33,7 @@
 #define INTC_GPIO_INTERRUPT_ID     XPAR_FABRIC_AXI_GPIO_0_IP2INTC_IRPT_INTR
 #define INTC_TMR_INTERRUPT_ID     XPAR_FABRIC_AXI_TIMER_0_INTERRUPT_INTR
 #define BTN_INT                 XGPIO_IR_CH1_MASK
-#define TMR_LOAD                0xF8000000  //1sec
+#define TMR_LOAD                0xFE000000  //1sec
 
 XGpio LEDInst, BTNInst, SWTInst;
 XScuGic INTCInst;
@@ -128,12 +128,15 @@ void TMR_Intr_Handler(void *data,void *InstancePtr)
             tmr_count = 0;
             led_data++;
             XGpio_DiscreteWrite(&LEDInst, 1, led_data);
-            XTmrCtr_Reset(&TMRInst,0);
-            XTmrCtr_Start(&TMRInst,0);
+            
         }
-        else tmr_count++;
+        else if(tmr_count > 7){tmr_count=0;}else{tmr_count++;} // Catch for infinite zero loop
+        
         
     }
+    // Given as fix by Lab TAs
+    XTmrCtr_Reset(&TMRInst,0);
+    XTmrCtr_Start(&TMRInst,0);
 }
 
 
@@ -254,7 +257,7 @@ void SetupTimer(){
     // timer times out.
     XTmrCtr_SetHandler(&TMRInst, (void *)TMR_Intr_Handler, &TMRInst);
     
-    //Set the reset value for the specified timer counter. This is the value
+    // Set the reset value for the specified timer counter. This is the value
     // that is loaded into the timer counter when it is reset. This value is also
     // loaded when the timer counter is started.
     XTmrCtr_SetResetValue(&TMRInst, 0, TMR_LOAD);
