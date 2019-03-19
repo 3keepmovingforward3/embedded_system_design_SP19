@@ -1,7 +1,7 @@
 %% FIR Digital Filter
 % Filter Coefficients
 den = 1;
-num=[1 3 3 1 4];
+num=[1 1 3 2 3];
 Ts=2E-5;
 
 % Original Sine Wave
