@@ -18,7 +18,7 @@ sys = filt(num,den,Ts);
 isstable(sys)
 
 %% Plotting Secion
-snapnow
+
 figure(1)
 options = bodeoptions;
 options.FreqUnits = 'Hz';
