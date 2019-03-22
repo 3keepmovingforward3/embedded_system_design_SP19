@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;task_management/src/freertos_hello_world.c&apos; to &apos;freertos_task_management.c&apos;" description="Rename resource &apos;freertos_hello_world.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/freertos_hello_world.c" name="freertos_task_management.c" stamp="1553258402991" updateReferences="true"/>
+</session>

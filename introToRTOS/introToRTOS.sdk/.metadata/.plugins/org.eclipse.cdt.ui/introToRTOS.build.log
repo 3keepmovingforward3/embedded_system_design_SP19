@@ -1,0 +1,26 @@
+09:55:00 **** Build of configuration Debug for project introToRTOS ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/freertos_hello_world.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/freertos_hello_world.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../introToRTOS_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/freertos_hello_world.d" -MT"src/freertos_hello_world.o" -o "src/freertos_hello_world.o" "../src/freertos_hello_world.c"
+../src/freertos_hello_world.c:127:25: warning: 'x1second' defined but not used [-Wunused-const-variable=]
+ static const TickType_t x1second = pdMS_TO_TICKS( DELAY_1_SECOND );
+                         ^~~~~~~~
+'Finished building: ../src/freertos_hello_world.c'
+' '
+'Building target: introToRTOS.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../introToRTOS_bsp/ps7_cortexa9_0/lib -o "introToRTOS.elf"  ./src/freertos_hello_world.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: introToRTOS.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size introToRTOS.elf  |tee "introToRTOS.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  89432	   3380	  89424	 182236	  2c7dc	introToRTOS.elf
+'Finished building: introToRTOS.elf.size'
+' '
+
+09:55:27 Build Finished (took 26s.921ms)
+
