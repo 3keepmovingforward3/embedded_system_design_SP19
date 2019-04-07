@@ -80,6 +80,7 @@ void XGPIOInit() {
 
 void ADRun() {
     int t = XGpio_DiscreteRead(&LEDSWSInst,SWITCHES); //initial switch read
+    xil_printf("%d\n",t);
     sumOverlap = 0; // used to reset old window overlap so it doesn't influence
     				// the new average when behavioral states are changed
     while(1) {
@@ -89,6 +90,7 @@ void ADRun() {
                 xil_printf("ECE3622 Lab 2\n");
                 sleep(5);
                 t = XGpio_DiscreteRead(&LEDSWSInst,SWITCHES);
+
             }
         }
 

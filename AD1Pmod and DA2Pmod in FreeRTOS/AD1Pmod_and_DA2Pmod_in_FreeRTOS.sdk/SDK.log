@@ -1,0 +1,6 @@
+16:20:10 INFO  : Registering command handlers for SDK TCF services
+16:20:11 INFO  : Launching XSCT server: xsct.bat -interactive C:\Zynq_Book\AD1Pmod_and_DA2Pmod_in_FreeRTOS\AD1Pmod_and_DA2Pmod_in_FreeRTOS.sdk\temp_xsdb_launch_script.tcl
+16:20:13 INFO  : XSCT server has started successfully.
+16:20:13 INFO  : Successfully done setting XSCT server connection channel  
+16:20:13 INFO  : Processing command line option -hwspec C:/Zynq_Book/AD1Pmod_and_DA2Pmod_in_FreeRTOS/AD1Pmod_and_DA2Pmod_in_FreeRTOS.sdk/design_1_wrapper.hdf.
+16:20:13 INFO  : Successfully done setting SDK workspace  

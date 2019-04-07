@@ -1,8 +1,31 @@
-16:46:55 **** Incremental Build of configuration Debug for project bb_PmodAD1 ****
+15:19:45 **** Incremental Build of configuration Debug for project bb_PmodAD1 ****
 make pre-build main-build 
 a9-linaro-pre-build-step
+'\\MAC\Home\Documents\GitHub\Embedded-System-Design-Sp19\bb_PmodAD1\bb_PmodAD1.sdk\bb_PmodAD1\Debug'
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+Access is denied.
+'\\MAC\Home\Documents\GitHub\Embedded-System-Design-Sp19\bb_PmodAD1\bb_PmodAD1.sdk\bb_PmodAD1\Debug'
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
 ' '
-make: Nothing to be done for 'main-build'.
+'\\MAC\Home\Documents\GitHub\Embedded-System-Design-Sp19\bb_PmodAD1\bb_PmodAD1.sdk\bb_PmodAD1\Debug'
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size bb_PmodAD1.elf  |tee "bb_PmodAD1.elf.size"
+'\\MAC\Home\Documents\GitHub\Embedded-System-Design-Sp19\bb_PmodAD1\bb_PmodAD1.sdk\bb_PmodAD1\Debug'
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+arm-none-eabi-size: 'bb_PmodAD1.elf': No such file
+'\\MAC\Home\Documents\GitHub\Embedded-System-Design-Sp19\bb_PmodAD1\bb_PmodAD1.sdk\bb_PmodAD1\Debug'
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+'Finished building: bb_PmodAD1.elf.size'
+'\\MAC\Home\Documents\GitHub\Embedded-System-Design-Sp19\bb_PmodAD1\bb_PmodAD1.sdk\bb_PmodAD1\Debug'
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+' '
 
-16:46:55 Build Finished (took 302ms)
+15:19:46 Build Finished (took 989ms)
 
