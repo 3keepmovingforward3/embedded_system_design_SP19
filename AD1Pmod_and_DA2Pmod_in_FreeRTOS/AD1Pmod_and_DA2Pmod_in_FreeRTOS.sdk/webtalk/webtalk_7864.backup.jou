@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# 
+# Start of session at: Sun Apr  7 17:52:20 2019
+# Process ID: 7864
+# Current directory: C:/Zynq_Book/AD1Pmod_and_DA2Pmod_in_FreeRTOS/AD1Pmod_and_DA2Pmod_in_FreeRTOS.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: C:/Zynq_Book/AD1Pmod_and_DA2Pmod_in_FreeRTOS/AD1Pmod_and_DA2Pmod_in_FreeRTOS.sdk/webtalk/webtalk.log
+# Journal file: C:/Zynq_Book/AD1Pmod_and_DA2Pmod_in_FreeRTOS/AD1Pmod_and_DA2Pmod_in_FreeRTOS.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

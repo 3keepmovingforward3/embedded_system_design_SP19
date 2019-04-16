@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;lab8_FreeRTOS/src/stach.h&apos; to &apos;stack.h&apos;" description="Rename resource &apos;stach.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/stach.h" name="stack.h" stamp="1555344753651" updateReferences="true"/>
+</session>

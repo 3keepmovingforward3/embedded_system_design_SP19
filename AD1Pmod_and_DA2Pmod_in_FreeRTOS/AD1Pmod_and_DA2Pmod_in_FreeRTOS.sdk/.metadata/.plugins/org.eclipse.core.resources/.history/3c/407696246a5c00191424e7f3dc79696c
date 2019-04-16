@@ -1,0 +1,55 @@
+/*
+ * main.c
+ *
+ *  Created on: Apr 11, 2019
+ *      Author: bblouin
+ */
+// FreeRTOS includes
+#include "FreeRTOS.h"
+#include "task.h"
+//#include "queue.h"
+
+// Xilinx includes
+#include "xparameters.h"
+#include "xil_io.h"
+#include "xil_printf.h"
+#include "sleep.h"
+//* Prototypes of the two tasks created by main(). */
+static void prvTask1( void *pvParameters );
+static void prvTask2( void *pvParameters );
+/* Handles for the tasks create by main(). */
+static TaskHandle_t xTask1 = NULL, xTask2 = NULL;
+/* Create two tasks that send notifications back and forth to each other, then
+start the RTOS scheduler. */
+int main( void )
+{
+xTaskCreate( prvTask1, "Task1", 200, NULL, tskIDLE_PRIORITY, &xTask1 );
+xTaskCreate( prvTask2, "Task2", 200, NULL, tskIDLE_PRIORITY, &xTask2 );
+vTaskStartScheduler();
+}
+/*-----------------------------------------------------------*/
+static void prvTask1( void *pvParameters )
+{
+for( ;; )
+{
+/* Send a notification to prvTask2(), bringing it out of the Blocked
+state. */
+	xil_printf("ad1\n");
+xTaskNotifyGive( xTask2 );
+/* Block to wait for prvTask2() to notify this task. */
+ulTaskNotifyTake( pdTRUE, portMAX_DELAY );
+}
+}
+/*-----------------------------------------------------------*/
+static void prvTask2( void *pvParameters )
+{
+for( ;; )
+{
+	xil_printf("ad1\n");
+/* Block to wait for prvTask1() to notify this task. */
+ulTaskNotifyTake( pdTRUE, portMAX_DELAY );
+/* Send a notification to prvTask1(), bringing it out of the Blocked
+state. */
+xTaskNotifyGive( xTask1 );
+}
+}

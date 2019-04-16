@@ -1,0 +1,154 @@
+/*
+ * main.c
+ *
+ *  Created on: Apr 11, 2019
+ *      Author: bblouin
+ */
+// FreeRTOS includes
+#include "FreeRTOS.h"
+#include "task.h"
+#include "queue.h"
+
+// Xilinx includes
+#include "xparameters.h"
+#include "xil_io.h"
+#include "xil_printf.h"
+#include "sleep.h"
+
+//AD1Pmod from Address Editor in Vivado, first IP
+//
+#define AD1acq 	0x43C00000	//AD1 acquisition	  - output
+#define AD1dav 	0x43C00004	//AD1 data available  - input
+#define AD1dat1	0x43C00008	//AD1 channel 1 data  - input
+
+//DAC2Pmod from Address Editor in Vivado, second IP
+//
+#define DA2acq  0x43C10000   //DA2 acquisition    - output
+#define DA2dav	0x43C10004	 //DA2 data available - input
+#define DA2dat1	0x43C10008	 //DA2 channel 1 data - output
+
+//* Prototypes of the two tasks created by main(). */
+static void prvTask1( void *pvParameters );
+static void prvTask2( void *pvParameters );
+static void prvAD1task(void* pvParameters);
+static void prvFiltertask(void* pvParameters);
+static void prvDA2task(void* pvParameters);
+
+/* Handles for the tasks create by main(). */
+static TaskHandle_t xTask1 = NULL, xTask2 = NULL;
+static TaskHandle_t xAD1Task = NULL;
+static TaskHandle_t xDA2Task = NULL;
+static TaskHandle_t xFilterTask = NULL;
+static QueueHandle_t xTransferQueue = NULL;
+
+// ADC and DAC global vars
+static int32_t adcdav;		//ADC data available
+static int32_t dacdav;		//DAC data available
+
+int main( void )
+{
+xTaskCreate( prvTask1, "Task1", 200, NULL, tskIDLE_PRIORITY, &xTask1 );
+xTaskCreate( prvTask2, "Task2", 200, NULL, tskIDLE_PRIORITY, &xTask2 );
+vTaskStartScheduler();
+}
+/*-----------------------------------------------------------*/
+static void prvTask1( void *pvParameters )
+{
+for( ;; )
+{
+/* Send a notification to prvTask2(), bringing it out of the Blocked
+state. */
+	xil_printf("ad1\n");
+xTaskNotifyGive( xTask2 );
+/* Block to wait for prvTask2() to notify this task. */
+ulTaskNotifyTake( pdTRUE, portMAX_DELAY );
+}
+}
+/*-----------------------------------------------------------*/
+static void prvTask2( void *pvParameters )
+{
+for( ;; )
+{
+	xil_printf("DA2\n");
+/* Block to wait for prvTask1() to notify this task. */
+ulTaskNotifyTake( pdTRUE, portMAX_DELAY );
+/* Send a notification to prvTask1(), bringing it out of the Blocked
+state. */
+xTaskNotifyGive( xTask1 );
+}
+}
+static void prvAD1task(void* pvParameters) {
+	static int32_t data;
+	while(1) {
+		xil_printf("\n Entered AD1");
+		//ADC acquire
+		Xil_Out32(AD1acq,1);
+
+		while (adcdav == 0) {
+			adcdav=Xil_In32(AD1dav);
+		}
+
+		//ADC stop acquire
+		Xil_Out32(AD1acq, 0);
+
+		//input ADC data
+		data = Xil_In32(AD1dat1);
+
+		//wait for reset
+/*		while (adcdav==1) {
+			adcdav = Xil_In32(AD1dav);
+		}*/
+		data = 32;
+		xil_printf("\n first data: %d", data);
+
+		xQueueSend(xTransferQueue,
+				   &data,
+				   0UL);
+		xil_printf("\n After queue send");
+		xTaskNotifyGive(prvDA2task);
+		ulTaskNotifyTake( pdTRUE, 0UL );
+	}
+
+}
+
+ static void prvFiltertask(void* pvParameters){
+
+ }
+
+ static void prvDA2task(void* pvParameters) {
+
+	static int32_t incoming_data;
+
+	while(1) {
+		xil_printf("\n Enter DA2");
+		// get the data from the Queue
+		/* Block to wait for prvTask1() to notify this task. */
+			ulTaskNotifyTake( pdTRUE, 0UL );
+			xil_printf("\n After DA2 take");
+			/* Send a notification to prvTask1(), bringing it out of the Blocked
+			state. */
+
+		xQueueReceive(xTransferQueue,
+						&incoming_data,
+						0UL);
+		xil_printf("\n data: %d", incoming_data);
+		//output DAC data
+		Xil_Out32(DA2dat1, incoming_data);
+
+		//DAC acquire
+		Xil_Out32(DA2acq,1);
+
+		while (dacdav==0) {
+			dacdav=Xil_In32(DA2dav);
+		}
+
+		//stop DAC acquire
+		Xil_Out32(DA2acq,0);
+		xTaskNotifyGive( prvAD1task );
+		//wait for reset
+/*		while(dacdav==1) {
+			dacdav=Xil_In32(DA2dav);
+		}*/
+	}
+
+ }

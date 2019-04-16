@@ -1,0 +1,27 @@
+/*
+ * stach.h
+ *
+ *  Created on: Apr 15, 2019
+ *      Author: bblouin
+ */
+
+#ifndef SRC_STACK_H_
+#define SRC_STACK_H_
+#define DEFAULT_CAPACITY 5
+
+
+typedef char* stack_item;
+struct stack {
+   size_t capacity;
+   size_t size;
+   stack_item *data;
+};
+typedef struct stack stack;
+stack *Stack(void){
+    stack *s = malloc(sizeof(stack));
+    s->capacity = DEFAULT_CAPACITY;
+    s->size = 0;
+    s->data = malloc(s->capacity * sizeof(stack_item));
+    return s;
+}
+#endif /* SRC_STACK_H_ */

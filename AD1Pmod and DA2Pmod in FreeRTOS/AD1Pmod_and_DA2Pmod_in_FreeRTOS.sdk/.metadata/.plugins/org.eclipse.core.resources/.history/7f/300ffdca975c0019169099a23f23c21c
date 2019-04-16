@@ -1,0 +1,90 @@
+/*
+ * main.c
+ *
+ *  Created on: Apr 11, 2019
+ *      Author: bblouin
+ */
+// FreeRTOS includes
+#include "FreeRTOS.h"
+#include "task.h"
+#include "queue.h"
+
+// Xilinx includes
+#include "xparameters.h"
+#include "xil_io.h"
+#include "xil_printf.h"
+#include "sleep.h"
+
+//AD1Pmod from Address Editor in Vivado, first IP
+//
+#define AD1acq 	0x43C00000	//AD1 acquisition	  - output
+#define AD1dav 	0x43C00004	//AD1 data available  - input
+#define AD1dat1	0x43C00008	//AD1 channel 1 data  - input
+
+//DAC2Pmod from Address Editor in Vivado, second IP
+//
+#define DA2acq  0x43C10000   //DA2 acquisition    - output
+#define DA2dav	0x43C10004	 //DA2 data available - input
+#define DA2dat1	0x43C10008	 //DA2 channel 1 data - output
+
+//* Prototypes of the two tasks created by main(). */
+static void prvAD1task(void* pvParameters);
+static void prvFiltertask(void* pvParameters);
+static void prvDA2task(void* pvParameters);
+
+/* Handles for the tasks create by main(). */
+static TaskHandle_t xAD1Task = NULL;
+static TaskHandle_t xDA2Task = NULL;
+static TaskHandle_t xFilterTask = NULL;
+static QueueHandle_t xTransferQueue = NULL;
+
+// ADC and DAC global vars
+static int32_t adcdav;		//ADC data available
+static int32_t dacdav;		//DAC data available
+
+int main( void )
+{
+xTaskCreate( prvAD1task, "eAD1_Task", 200, NULL, tskIDLE_PRIORITY, &xAD1Task );
+xTaskCreate( prvDA2task, "eDA2_Task", 200, NULL, tskIDLE_PRIORITY, &xDA2Task );
+xTaskCreate(prvFiltertask, "eFilter", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY, &xFilterTask);
+xTransferQueue = xQueueCreate(1, sizeof(int32_t));
+configASSERT(xTransferQueue);
+vTaskStartScheduler();
+while(1);
+}
+
+
+/*-----------------------------------------------------------*/
+static void prvAD1task( void *pvParameters )
+{
+	while(1)
+	{
+		xil_printf("task1\n");
+
+
+		xTaskNotifyGive( xFilterTask );
+		ulTaskNotifyTake( pdTRUE, portMAX_DELAY );
+	}
+}
+
+/*-----------------------------------------------------------*/
+static void prvDA2task( void *pvParameters )
+	{
+	while(1)
+	{
+		xil_printf("task2\n");
+		ulTaskNotifyTake( pdTRUE, portMAX_DELAY );
+		xTaskNotifyGive(xAD1Task);
+	}
+}
+
+/*-----------------------------------------------------------*/
+static void prvFiltertask(void* pvParameters)
+	{
+	while(1)
+	{
+		xil_printf("filter\n");
+		ulTaskNotifyTake( pdTRUE, portMAX_DELAY );
+		xTaskNotifyGive(xDA2Task);
+ }
+}

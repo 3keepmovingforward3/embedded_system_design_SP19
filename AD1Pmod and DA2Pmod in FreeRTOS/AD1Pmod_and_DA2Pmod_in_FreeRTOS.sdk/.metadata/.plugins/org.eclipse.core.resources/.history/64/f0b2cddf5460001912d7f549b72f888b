@@ -1,0 +1,186 @@
+
+//
+//
+
+#include <stdio.h>
+
+// FreeRTOS includes
+//
+#include <FreeRTOS.h>
+#include <task.h>
+#include <queue.h>
+
+// Xilinx includes
+//
+#include <xparameters.h>
+#include <xil_io.h>
+#include <xil_printf.h>
+#include <sleep.h>
+#include <assert.h>
+#include <stdlib.h>
+
+//AD1Pmod from Address Editor in Vivado, first IP
+//
+#define AD1acq 	0x43C00000	//AD1 acquisition	  - output
+#define AD1dav 	0x43C00004	//AD1 data available  - input
+#define AD1dat1	0x43C00008	//AD1 channel 1 data  - input
+
+//DAC2Pmod from Address Editor in Vivado, second IP
+//
+#define DA2acq  0x43C10000   //DA2 acquisition    - output
+#define DA2dav	0x43C10004	 //DA2 data available - input
+#define DA2dat1	0x43C10008	 //DA2 channel 1 data - output
+
+// tasks prototypes
+//
+static void prvAD1task(void* pvParameters);
+static void prvDA2task(void* pvParameters);
+static void prvFiltertask(void* pvParameters);
+
+// declare tasks handles
+//
+static TaskHandle_t xAD1Task;
+static TaskHandle_t xDA2Task;
+static TaskHandle_t xFilterTask;
+
+// declare queues
+static QueueHandle_t xTransferQueue = NULL;
+
+
+// ADC and DAC global vars
+int32_t adcdav;		//ADC data available
+int32_t dacdav;		//DAC data available
+static int8_t p_coeffs_n = 5;
+static int8_t p_coeffs[5] = {4,1,3,3,1};
+
+
+int main(int argc, char** argv) {
+
+	xTaskCreate(prvAD1task,
+				"AD1Task",
+				configMINIMAL_STACK_SIZE,
+				NULL,
+				tskIDLE_PRIORITY+1,
+				&xAD1Task);
+
+	xTaskCreate(prvDA2task,
+				"DA2Task",
+				configMINIMAL_STACK_SIZE,
+				NULL,
+				tskIDLE_PRIORITY+2,
+				&xDA2Task);
+
+	xTaskCreate(prvFiltertask,
+				"FilterTask",
+				configMINIMAL_STACK_SIZE,
+				NULL,
+				tskIDLE_PRIORITY+3,
+				&xFilterTask);
+
+	// create the Queue that will be used to pass the data
+	xTransferQueue = xQueueCreate(1,
+								  sizeof(int32_t));
+
+
+	// make sure that the Queue was created
+	//
+	configASSERT(xTransferQueue);
+	// start the task Scheduler
+	vTaskStartScheduler();
+
+	while(1);
+
+	return 0;
+}
+
+ static void prvAD1task(void* pvParameters) {
+
+	static int32_t data;
+	while(1) {
+
+		//ADC acquire
+		//
+		Xil_Out32(AD1acq,1);
+
+		while (adcdav == 0) {
+			adcdav=Xil_In32(AD1dav);
+		}
+
+		//ADC stop acquire
+		Xil_Out32(AD1acq, 0);
+
+		//input ADC data
+		data = Xil_In32(AD1dat1);
+
+		//wait for reset
+		//
+		while (adcdav==1) {
+			adcdav = Xil_In32(AD1dav);
+		}
+
+		// pass the data to the queue
+		xQueueSend(xTransferQueue,
+				   &data,
+				   0UL);
+		vTaskResume(xFilterTask);
+	}
+
+}
+
+ static void prvFiltertask(void* pvParameters){
+	 static int32_t filter_data;
+	 static int32_t filtered_data;
+	 static int32_t buffer[4096];
+	 static int16_t tmp,i,j,k,n;
+	 while(1){
+		 if(n==4){
+			 	 filtered_data=0.1*(buffer[0]+buffer[1]*3+buffer[2]*3+buffer[3]+buffer[4]*4);
+			 n=0;}
+		 xQueueReceive(xTransferQueue,
+		 				&filter_data,
+		 				portMAX_DELAY);
+		 buffer[n]=filter_data;
+		 n++;
+
+		 xQueueSend(xTransferQueue,
+		 				 &filtered_data,
+		 				 0UL);
+		 vTaskResume(xDA2Task);
+
+		 vTaskSuspend(NULL);
+	 }
+ }
+
+  static void prvDA2task(void* pvParameters) {
+
+	static int32_t incoming_data;
+
+	while(1) {
+		// get the data from the Queue
+		xQueueReceive(xTransferQueue,
+					 &incoming_data,
+					  portMAX_DELAY);
+		//output DAC data
+		//xil_printf("data %u\n",incoming_data);
+		Xil_Out32(DA2dat1, incoming_data);
+
+		//DAC acquire
+		Xil_Out32(DA2acq,1);
+
+		//DAC data output?
+		while (dacdav==0) {
+			dacdav=Xil_In32(DA2dav);
+		}
+		//stop DAC acquire
+
+		Xil_Out32(DA2acq,0);
+
+		//wait for reset
+		while(dacdav==1) {
+			dacdav=Xil_In32(DA2dav);
+		}
+
+	}
+
+ }
+

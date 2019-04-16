@@ -1,0 +1,8 @@
+10:22:43 **** Auto Build of configuration Debug for project freeRTOS_testingground ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+
+10:22:44 Build Finished (took 907ms)
+
