@@ -140,12 +140,14 @@ int main(int argc, char** argv) {
 			 buffer[n]=filter_data;
 			 n++;
 		 }
-		 if(first_flag==1 && n==4){
+
+		 if(first_flag==1){
 			 filtered_data = buffer[0]+3*buffer[1]+3*buffer[2]+buffer[3]+4*buffer[4];
 			 first_flag = 0;
 			 continue_flag = 1;
 		 }
-		 if(continue_flag==1&&n==4){
+
+		 if(continue_flag==1){
 			 buffer[4]=buffer[3];
 			 buffer[3]=buffer[2];
 			 buffer[2]=buffer[1];
