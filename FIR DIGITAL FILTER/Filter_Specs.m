@@ -2,7 +2,8 @@
 % Filter Coefficients
 den = 1;
 num=[1 1 3 2 3];
-Ts=2E-5;
+Ts2=2E-5;
+Ts=1/120000;
 
 % Original Sine Wave
 t=linspace(0,1,4096);
