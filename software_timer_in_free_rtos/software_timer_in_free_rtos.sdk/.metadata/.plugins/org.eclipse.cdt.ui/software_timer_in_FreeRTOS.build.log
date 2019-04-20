@@ -1,0 +1,16 @@
+11:03:09 **** Auto Build of configuration Debug for project software_timer_in_FreeRTOS ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:9:0:
+../src/FreeRTOS.h:57:10: fatal error: FreeRTOSConfig.h: No such file or directory
+ #include "FreeRTOSConfig.h"
+          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+
+11:03:10 Build Finished (took 344ms)
+

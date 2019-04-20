@@ -1,0 +1,79 @@
+/*
+ * main.c
+ *
+ *  Created on: Apr 17, 2019
+ *      Author: bblouin
+ */
+
+// FreeRTOS includes
+#include "FreeRTOS.h"
+#include <task.h>
+#include <timers.h>
+#include <stdio.h>
+
+// Xilinx includes
+#include <xgpio.h>
+#include <xil_printf.h>
+
+#define TIMER_ID 1
+#define FOURSEC 4000UL
+static TickType_t four = pdMS_TO_TICKS(FOURSEC); // 4 seconds
+
+static TaskHandle_t Task_BTN_SW = NULL;
+XGpio xBTNSWI, xLEDS;
+static xTimerHandle xtimerone;
+
+static void prvTask_BTN_SW(void *pvParameters);
+static void vTimer1Callback(TimerHandle_t pxTimer);
+static void gpioInit();
+
+int main (void){
+
+	gpioInit();
+	xTaskCreate(prvTask_BTN_SW,
+			(const char *) "TASK_BTN_SW",
+			configMINIMAL_STACK_SIZE,
+			NULL,
+			tskIDLE_PRIORITY + 4,
+			&Task_BTN_SW);
+
+	xtimerone = xTimerCreate((const char *)"Timer1",
+			four,
+			pdFALSE,
+			(void *) TIMER_ID,
+			vTimer1Callback);
+
+	if(xtimerone!=NULL){
+
+			xil_printf("Starting scheduler\n");
+			xTimerStart(xtimerone,0);
+			vTaskStartScheduler();
+	}
+
+
+	while(1){};
+	xil_printf("\nfail\n");
+}
+static void prvTask_BTN_SW(void *pvParameters){
+	xil_printf("Invoking task\n");
+	int i = 0;
+	while(1){
+
+		XGpio_DiscreteWrite(&xLEDS,1,0xf);
+	}
+}
+
+static void vTimer1Callback(xTimerHandle pxTimer){
+
+	xil_printf("in timer\n");
+
+}
+
+static void gpioInit(){
+	XGpio_Initialize(&xBTNSWI,XPAR_AXI_GPIO_0_DEVICE_ID);
+    XGpio_Initialize(&xLEDS,XPAR_AXI_GPIO_1_DEVICE_ID);
+
+    XGpio_SetDataDirection(&xBTNSWI,1,0xf);
+	XGpio_SetDataDirection(&xBTNSWI,2,0xf);
+	XGpio_SetDataDirection(&xLEDS,1,0x0);
+}

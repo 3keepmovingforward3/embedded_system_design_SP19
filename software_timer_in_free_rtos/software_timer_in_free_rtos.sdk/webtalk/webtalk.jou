@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# 
+# Start of session at: Thu Apr 18 12:37:09 2019
+# Process ID: 5896
+# Current directory: C:/Zynq_Book/software_timer_in_free_rtos/software_timer_in_free_rtos.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: C:/Zynq_Book/software_timer_in_free_rtos/software_timer_in_free_rtos.sdk/webtalk/webtalk.log
+# Journal file: C:/Zynq_Book/software_timer_in_free_rtos/software_timer_in_free_rtos.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

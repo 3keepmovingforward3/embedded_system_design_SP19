@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Apr 17 13:49:31 2019
+# Process ID: 5080
+# Current directory: C:/Zynq_Book/software_timer_in_free_rtos/software_timer_in_free_rtos.runs/impl_1
+# Command line: vivado.exe -log design_1_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source design_1_wrapper.tcl -notrace
+# Log file: C:/Zynq_Book/software_timer_in_free_rtos/software_timer_in_free_rtos.runs/impl_1/design_1_wrapper.vdi
+# Journal file: C:/Zynq_Book/software_timer_in_free_rtos/software_timer_in_free_rtos.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace
